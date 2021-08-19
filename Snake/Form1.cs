@@ -3,9 +3,9 @@ using System.Collections;
 using System.Drawing;
 using System.Linq;
 using System.Windows.Forms;
-using sanek.Properties;
+using snake.Properties;
 
-namespace sanek
+namespace snake
 {
     public partial class Snake : Form
     {

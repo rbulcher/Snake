@@ -1,5 +1,5 @@
 ﻿
-namespace sanek
+namespace snake
 {
     partial class Snake
     {
@@ -44,7 +44,7 @@ namespace sanek
             // snakeHead
             // 
             this.snakeHead.BackColor = System.Drawing.Color.Transparent;
-            this.snakeHead.BackgroundImage = global::sanek.Properties.Resources.beeHead;
+            this.snakeHead.BackgroundImage = global::snake.Properties.Resources.beeHead;
             this.snakeHead.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.snakeHead.Location = new System.Drawing.Point(350, 200);
             this.snakeHead.Name = "snakeHead";
@@ -55,7 +55,7 @@ namespace sanek
             // button2
             // 
             this.button2.BackColor = System.Drawing.Color.Transparent;
-            this.button2.BackgroundImage = global::sanek.Properties.Resources.button_stop;
+            this.button2.BackgroundImage = global::snake.Properties.Resources.button_stop;
             this.button2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button2.FlatAppearance.BorderSize = 0;
@@ -70,7 +70,7 @@ namespace sanek
             // button1
             // 
             this.button1.BackColor = System.Drawing.Color.Transparent;
-            this.button1.BackgroundImage = global::sanek.Properties.Resources.button_start;
+            this.button1.BackgroundImage = global::snake.Properties.Resources.button_start;
             this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button1.FlatAppearance.BorderSize = 0;
